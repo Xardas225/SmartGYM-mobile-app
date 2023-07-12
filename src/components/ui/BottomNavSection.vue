@@ -65,12 +65,12 @@ defineComponent({
           class="h-full inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group"
         >
           <v-icon
-            name="io-person-circle"
+            name="io-stats-chart"
             class="dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
           />
           <span
             class="text-sm text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
-            >Профиль</span
+            >Показатели</span
           >
         </button>
       </router-link>
