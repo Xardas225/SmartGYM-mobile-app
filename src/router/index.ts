@@ -7,11 +7,26 @@ const routes: Array<RouteRecordRaw> = [
     name: 'home',
     component: HomeView
   },
-  // {
-  //   path: '/about',
-  //   name: 'about',
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  // }
+  {
+    path: '/profile',
+    name: 'profile',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ProfileView.vue')
+  },
+  {
+    path: '/nutrition',
+    name: 'nutrition',
+    component: () => import(/* webpackChunkName: "about" */ '../views/NutritionView.vue')
+  },
+  {
+    path: '/training',
+    name: 'training',
+    component: () => import(/* webpackChunkName: "about" */ '../views/TrainingView.vue')
+  },
+  {
+    path: '/health',
+    name: 'health',
+    component: () => import(/* webpackChunkName: "about" */ '../views/HealthView.vue')
+  }
 ]
 
 const router = createRouter({
